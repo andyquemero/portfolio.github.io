@@ -256,11 +256,55 @@ main section .info{
 section .infoContactos{
 	display: flex;
 	flex-direction: column;
-	background: lightgrey;
 }
 
-.infoContactos form ul{
-	list-style: none;
+.infoContactos form{
+	background: lightgrey;
+	width: 90%;
+	margin: auto;
+	padding-top: 20px;
+	border-radius: 25px;
+}
+
+form .formDatos{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.formDatos div{
+	margin: 5px;
+}
+
+.formDatos div input{
+	margin: 5px;
+}
+
+form .formMensaje{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.formMensaje textarea{
+	resize: none;
+}
+
+form .enviar{
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+}
+
+.enviar button{
+
+	background: blueviolet;
+	color: lightgrey;
+	border-radius: 20px;
+}
+
+button:hover{
+	color: green;
 }
 
 footer .pie{

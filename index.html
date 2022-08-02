@@ -25,6 +25,8 @@
 
 	<main>
 
+		<!-- Presentacion -->
+
 		<div class="presentacion">
 			<div class="presentacionInfo">
 				<h3>Hola, me llamo Andres Acosta y soy programador web</h3>
@@ -43,7 +45,7 @@
 		</div>
 
 
-
+			<!-- Informacion propia -->
 		
 		<section class="info">
 			
@@ -53,6 +55,8 @@
 				<h4>Actualmente vivo en la Ciudad Autonoma de Buenos Aires, en el barrio de Nueva Pompeya, poseo transporte propio tanto bici como moto, trabajo de forma autonoma en mensajeria, ventas online y reparacion de pc. Actualmente me encuentro en la busqueda de mi primera experiencia laboral en el mundo IT, si bien me falta seguir practicando y aprendiendo, considero que tengo un nivel apto de ambiente laboral, espero que mis proyectos sean de su agrado y cualquier comentario o critica constructiva, me ayudara.</h4>
 				<p>Bienvenidos a mi portafolio, que se encuentra en mejora continua </p>
 			</div>
+
+				<!-- Skills/Habilidades -->
 
 			<div class="infoSkills">
 				<h2 class="skillsTitulo">Skills</h2>
@@ -84,6 +88,8 @@
 				</div>
 			</div>
 
+				<!-- Hobbies -->
+
 			<div class="infoHobbies">
 				<h2>Hobbies</h2>
 				<div class="hobbiesBoxes">
@@ -107,13 +113,14 @@
 					</div>
 				</div>
 			</div>
+			
+			<!-- Formacion academica -->
 
 			<div class="infoFormacion">
 				<h2>Formacion academica</h2>
 				<div class="formacionBoxes">
 					<div class="formacionBox">
                		 	<ul class="formacionList">
-               		     	<!-- Pon el logotipo de la institución de formación -->
                 	    	<li class="formacionImg"><img src="img\undavlogo.jfif"></li>
            		         	<li class="formacionTitle"><h4>Ingenieria Informatica</h4></li>
             	        	<li class="formacionSubtitle"><p>2019-Actualidad - UNDAV</p></li>
@@ -122,7 +129,6 @@
 
 					<div class="formacionBox">
               	 	 	<ul class="formacionList">
-                    		<!-- Pon el logotipo de la institución de formación -->
                 	    	<li class="formacionImg"><img src="img\codoacodo.jfif"></li>
           		          	<li class="formacionTitle"><h4>Desarrollo FullStack JAVA</h4></li>
             	        	<li class="formacionSubtitle"><p>2020 - Codo a Codo</p></li>
@@ -130,7 +136,6 @@
   		          	</div>
         	    	<div class="formacionBox">
         	        	<ul class="formacionList">
-                    		<!-- Pon el logotipo de la institución de formación -->
                 	    	<li class="formacionImg"><img src="img\educacionitlogo.jpg"></li>
             	        	<li class="formacionTitle"><h4>Programacion Web</h4></li>
                 	    	<li class="formacionSubtitle"><p>2021 - Educacion IT</p></li>
@@ -138,7 +143,6 @@
             		</div>
             		<div class="formacionBox">
             	    	<ul class="formacionList">
-                	    	<!-- Pon el logotipo de la institución de formación -->
         	            	<li class="formacionImg"><img src="img\oracleonelogo.png"><img src="img/alura_logo.png"></li>
     	                	<li class="formacionTitle"><h4>Oracle ONE next Educacion</h4></li>
 	                    	<li class="formacionSubtitle"><p>2022 - Alura Latam</p><li>
@@ -147,7 +151,7 @@
 				</div>
 
 			</div>
-
+			<!-- Proyectos personales mas prometedores-->
 			<div class="infoProyectos">
 				<h2>Proyectos/ experiencia profesional</h2>
 				<div class="proyectoBoxes">
@@ -158,31 +162,35 @@
 			</div>		
 
 		</section>
+	
+		<!-- Formulario para contacto -->
+	
 		<section class="contacto">
 			<div class="infoContactos">
 				<h2>Contacto</h2>
+				<p>Queres contactarme ?? dejame un mensaje </p>
 				<form class="formularioContacto">
-					<ul>
-						<li>
-							<label>Nombre: </label>
-							<input type="text" name="">
-						</li>
-						<li>
-							<label>Email @: </label>
-							<input type="mail" name="">
-						</li>
-						<li>
-							<label>Asunto: </label>
-							<input type="text" name="" placeholder="asunto">
-						</li>
-						<li>
-							<label>Mensaje: </label>
-							<input type="textarea" name="">
-						</li>
-						<li>
-							<button type="submit"> Enviar </button>
-						</li>
-					</ul>
+            			<div class="formDatos">
+        			        <div>
+        			        	
+        			    	    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        			       		<input type="text" name="asunto" id="asunto" placeholder="Asunto">
+        			        </div>
+        			        <div>
+        			        	
+                				<input type="email" name="correo" id="correo" placeholder="E-mail">
+         			       		<input type="number" name="telefono" id="telefono" placeholder="Numero Telefonico">
+        			        </div>
+         			   </div>
+         			   <div class="formMensaje">
+         			   		<label>Mensaje: </label>
+         			   		<textarea rows="10" cols="60">
+         			   			
+         			   		</textarea>
+         			   </div>
+			            <div class="enviar">
+			                <button type="submit" > ENVIAR </button>
+			            </div>
 				</form>
 			</div>	
 		</section>
